@@ -20,7 +20,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Add Upstream Remote
-        run: git remote add upstream https://github.com/parent-username/parent-repo.git
+        run: git remote add upstream https://github.com/nss-nitc/nss-website
 
       - name: Fetch Upstream Changes
         run: |
